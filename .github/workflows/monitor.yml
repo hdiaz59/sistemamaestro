@@ -2,13 +2,14 @@ name: Monitor Sistema Maestro & Deploy GitHub Pages
 
 on:
   schedule:
-    # Frecuencia de ejecución automática:
-    - Cada 15 minutos: '*/15 * * * *'
-    # - Cada 30 minutos: '*/30 * * * *'
-    # - Cada 1 hora:     '0 * * * *'
-    # - Cada 2 horas:    '0 */2 * * *'
-    # - cron: '*/30 * * * *'
+    # Frecuencia de ejecución automática (cada 15 minutos):
+    - cron: '*/15 * * * *'
+    # Alternativas:
+    # - cron: '*/30 * * * *' # Cada 30 minutos
+    # - cron: '0 * * * *'    # Cada 1 hora
+    # - cron: '0 */2 * * *'  # Cada 2 horas
   workflow_dispatch: # Permite ejecución manual inmediata desde la pestaña Actions
+
 
 
 permissions:
