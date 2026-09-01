@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "ultima_actualizacion": "2026-09-01 20:23:41 UTC",
+    "total_activas": 20,
+    "total_nuevas": 0,
+    "total_actualizadas": 4,
+    "total_historico": 21,
+    "departamentos": [
+      "Caldas",
+      "Caquetá",
+      "Risaralda"
+    ],
+    "municipios": [
+      "Aranzazu",
+      "Cartagena Del Chairá",
+      "Filadelfia",
+      "La Dorada",
+      "Manzanares",
+      "Marquetalia",
+      "Norcasia",
+      "Pensilvania",
+      "Pereira",
+      "Puerto Rico",
+      "Salamina"
+    ],
+    "areas": [
+      "Ciencias naturales y educación ambiental",
+      "Ciencias sociales",
+      "Educación física, recreación y deporte",
+      "Idioma extranjero inglés",
+      "Matemáticas",
+      "Preescolar",
+      "Primaria",
+      "Sin asignación directa"
+    ],
+    "cargos": [
+      "Docente Orientador",
+      "Docente de Aula",
+      "Docente de aula",
+      "Docente tutor (Planta Temporal PTA)"
+    ],
+    "conteo_departamentos": {
+      "Risaralda": 6,
+      "Caquetá": 2,
+      "Caldas": 12
+    },
+    "conteo_areas": {
+      "Preescolar": 3,
+      "Educación física, recreación y deporte": 2,
+      "Matemáticas": 3,
+      "Ciencias sociales": 2,
+      "Primaria": 5,
+      "Ciencias naturales y educación ambiental": 1,
+      "Sin asignación directa": 2,
+      "Idioma extranjero inglés": 2
+    }
+  },
+  "novedades": []
+}

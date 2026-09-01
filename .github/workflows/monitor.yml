@@ -1,0 +1,77 @@
+name: Monitor Sistema Maestro & Deploy GitHub Pages
+
+on:
+  schedule:
+    # Frecuencia de ejecución automática:
+    # - Cada 15 minutos: '*/15 * * * *'
+    # - Cada 30 minutos: '*/30 * * * *'
+    # - Cada 1 hora:     '0 * * * *'
+    # - Cada 2 horas:    '0 */2 * * *'
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Permite ejecución manual inmediata desde la pestaña Actions
+
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 📦 Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🚀 Ejecutar Monitor de Vacantes
+        env:
+          HEADLESS: "true"
+          TIMEOUT: "30000"
+          SMTP_ENABLED: ${{ secrets.SMTP_ENABLED }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFICATION_RECIPIENTS: ${{ secrets.NOTIFICATION_RECIPIENTS }}
+          TELEGRAM_ENABLED: ${{ secrets.TELEGRAM_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python main.py
+
+      - name: 💾 Guardar cambios de datos y exportaciones en Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/ data/exportaciones/
+          if git diff --staged --quiet; then
+            echo "No hay cambios nuevos en los datos."
+          else
+            git commit -m "chore(data): actualización automática de vacantes [skip ci]"
+            git push
+          fi
+
+      - name: 🌐 Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📦 Subir artefacto de GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/'
+
+      - name: 🚀 Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor Sistema Maestro MEN — Vacantes Docentes Colombia</title>
+  <meta name="description" content="Portal interactivo de consulta y monitoreo en tiempo real de vacantes docentes publicadas en el Sistema Maestro del Ministerio de Educación Nacional de Colombia.">
+  
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons (Ligeros y modernos) -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- SheetJS para exportación cliente a Excel -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-background"></div>
+
+  <!-- Header & Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="brand-logo">
+          <i class="ph-bold ph-graduation-cap"></i>
+        </div>
+        <div class="brand-text">
+          <h1>Sistema Maestro <span class="badge-tag">Monitor MEN</span></h1>
+          <p>Oportunidades y Vacantes Docentes en Colombia</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="status-chip" id="status-chip">
+          <span class="status-dot"></span>
+          <span id="last-update-text">Actualizado: Cargando...</span>
+        </div>
+        <button id="theme-toggle" class="icon-button" title="Cambiar tema">
+          <i class="ph ph-sun" id="theme-icon"></i>
+        </button>
+        <a href="https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml" target="_blank" rel="noopener" class="btn btn-portal">
+          <i class="ph-bold ph-arrow-square-out"></i>
+          <span>Portal Oficial MEN</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- KPI Stats Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card glass-card">
+        <div class="kpi-icon icon-blue">
+          <i class="ph-bold ph-briefcase"></i>
+        </div>
+        <div class="kpi-content">
+          <span class="kpi-title">Vacantes Activas</span>
+          <h2 class="kpi-value" id="kpi-activas">--</h2>
+          <span class="kpi-sub" id="kpi-activas-sub">En todo el país</span>
+        </div>
+      </div>
+
+      <div class="kpi-card glass-card highlight-glow">
+        <div class="kpi-icon icon-green">
+          <i class="ph-bold ph-sparkle"></i>
+        </div>
+        <div class="kpi-content">
+          <span class="kpi-title">Nuevas Hoy</span>
+          <h2 class="kpi-value text-green" id="kpi-nuevas">--</h2>
+          <span class="kpi-sub" id="kpi-nuevas-sub">Detectadas en la última consulta</span>
+        </div>
+      </div>
+
+      <div class="kpi-card glass-card">
+        <div class="kpi-icon icon-purple">
+          <i class="ph-bold ph-map-pin"></i>
+        </div>
+        <div class="kpi-content">
+          <span class="kpi-title">Departamentos</span>
+          <h2 class="kpi-value" id="kpi-deptos">--</h2>
+          <span class="kpi-sub" id="kpi-deptos-sub">Con convocatorias abiertas</span>
+        </div>
+      </div>
+
+      <div class="kpi-card glass-card">
+        <div class="kpi-icon icon-amber">
+          <i class="ph-bold ph-buildings"></i>
+        </div>
+        <div class="kpi-content">
+          <span class="kpi-title">Municipios</span>
+          <h2 class="kpi-value" id="kpi-mpios">--</h2>
+          <span class="kpi-sub" id="kpi-mpios-sub">Sedes educativas ofertadas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter & Control Panel -->
+    <section class="controls-section glass-card">
+      <div class="controls-header">
+        <div class="search-box">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="search-input" placeholder="Buscar por municipio, área, cargo, secretaría o palabra clave...">
+          <button id="clear-search" class="clear-btn" style="display: none;"><i class="ph ph-x"></i></button>
+        </div>
+        <div class="view-and-export">
+          <div class="view-toggles">
+            <button id="view-cards-btn" class="toggle-btn active" title="Vista Cuadrícula">
+              <i class="ph ph-squares-four"></i>
+            </button>
+            <button id="view-table-btn" class="toggle-btn" title="Vista Tabla">
+              <i class="ph ph-table"></i>
+            </button>
+          </div>
+          <div class="export-dropdown">
+            <button class="btn btn-secondary" id="export-menu-btn">
+              <i class="ph-bold ph-download-simple"></i>
+              <span>Exportar</span>
+              <i class="ph ph-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="export-menu">
+              <a href="#" id="export-excel-btn"><i class="ph-bold ph-file-xls"></i> Exportar a Excel (.xlsx)</a>
+              <a href="#" id="export-csv-btn"><i class="ph-bold ph-file-csv"></i> Exportar a CSV (.csv)</a>
+              <a href="#" id="export-json-btn"><i class="ph-bold ph-file-code"></i> Exportar a JSON (.json)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Dropdowns Grid -->
+      <div class="filters-grid">
+        <div class="filter-group">
+          <label for="filter-departamento"><i class="ph ph-map-trifold"></i> Departamento</label>
+          <select id="filter-departamento">
+            <option value="">Todos los Departamentos</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-municipio"><i class="ph ph-navigation-arrow"></i> Municipio</label>
+          <select id="filter-municipio">
+            <option value="">Todos los Municipios</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-area"><i class="ph ph-book-open-text"></i> Área de Conocimiento</label>
+          <select id="filter-area">
+            <option value="">Todas las Áreas</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-cargo"><i class="ph ph-user-circle-gear"></i> Cargo</label>
+          <select id="filter-cargo">
+            <option value="">Todos los Cargos</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Quick Filter Tags & Counter -->
+      <div class="quick-filters-bar">
+        <div class="tags-group">
+          <span class="filter-label">Filtros rápidos:</span>
+          <button class="filter-tag" data-tag="nuevas"><i class="ph-bold ph-sparkle"></i> Solo Nuevas</button>
+          <button class="filter-tag" data-tag="urgentes"><i class="ph-bold ph-clock-countdown"></i> Cierran hoy</button>
+          <button class="filter-tag" data-tag="primaria"><i class="ph ph-books"></i> Primaria</button>
+          <button class="filter-tag" data-tag="preescolar"><i class="ph ph-baby"></i> Preescolar</button>
+          <button class="filter-tag" data-tag="matematicas"><i class="ph ph-function"></i> Matemáticas</button>
+          <button class="filter-tag" data-tag="orientador"><i class="ph ph-heartbeat"></i> Orientador</button>
+          <button class="btn-link" id="reset-filters-btn" style="display: none;">Limpiar filtros</button>
+        </div>
+        <div class="results-counter" id="results-count-text">
+          Mostrando <strong>0</strong> oportunidades
+        </div>
+      </div>
+    </section>
+
+    <!-- Vacancies Container (Grid View) -->
+    <section id="vacancies-grid" class="vacancies-cards-grid"></section>
+
+    <!-- Vacancies Container (Table View) -->
+    <section id="vacancies-table-container" class="glass-card table-wrapper" style="display: none;">
+      <table class="custom-table" id="vacancies-table">
+        <thead>
+          <tr>
+            <th data-sort="estado">Estado <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="departamento">Ubicación <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="cargo">Cargo <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="area">Área <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="tipo_priorizacion">Priorización <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="postulados">Postulados <i class="ph ph-arrows-down-up"></i></th>
+            <th data-sort="fecha_cierre_iso">Cierre <i class="ph ph-arrows-down-up"></i></th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="vacancies-table-body"></tbody>
+      </table>
+    </section>
+
+    <!-- Empty State Message -->
+    <div id="empty-state" class="empty-state glass-card" style="display: none;">
+      <i class="ph-thin ph-magnifying-glass"></i>
+      <h3>No se encontraron vacantes</h3>
+      <p>Intenta ajustar tus criterios de búsqueda o limpiar los filtros aplicados.</p>
+      <button class="btn btn-primary" id="empty-reset-btn">Restablecer filtros</button>
+    </div>
+
+  </main>
+
+  <!-- Modal Detalle Vacante -->
+  <div class="modal-overlay" id="detail-modal" style="display: none;">
+    <div class="modal-card glass-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="badge badge-nueva" id="modal-badge">NUEVA</span>
+          <h3 id="modal-cargo">Cargo Docente</h3>
+        </div>
+        <button class="modal-close-btn" id="modal-close"><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Rellenado dinámicamente -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modal-copy-btn"><i class="ph ph-copy"></i> Copiar Detalles</button>
+        <a href="https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="ph-bold ph-arrow-square-out"></i> Postularse en Sistema Maestro
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast-message"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p><strong>Monitor Sistema Maestro</strong> — Proyecto de consulta y trazabilidad histórica de vacantes del Ministerio de Educación Nacional de Colombia.</p>
+      <div class="footer-links">
+        <span>Datos oficiales obtenidos de <a href="https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml" target="_blank" rel="noopener">sistemamaestro.mineducacion.gov.co</a></span>
+        <span>•</span>
+        <span>Publicado en GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
