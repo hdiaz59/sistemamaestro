@@ -1,73 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-03 01:28:03 UTC",
-  "total_activas": 30,
-  "total_nuevas": 30,
+  "ultima_actualizacion": "2026-09-03 06:24:34 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 30,
-  "departamentos": [
-    "Antioquia",
-    "Huila",
-    "Meta",
-    "Nariño",
-    "Santander",
-    "Valle del Cauca"
-  ],
-  "municipios": [
-    "Algeciras",
-    "Cabuyaro",
-    "Garzon",
-    "Itaguí",
-    "La Macarena",
-    "Lejanias",
-    "Mapiripan",
-    "Palmira",
-    "Pasto",
-    "Piedecuesta",
-    "Puerto Gaitan",
-    "Puerto Lopez",
-    "San Agustin",
-    "San Carlos De Guaroa",
-    "Tulua",
-    "Yumbo"
-  ],
-  "areas": [
-    "Ciencias naturales física",
-    "Ciencias naturales química",
-    "Ciencias sociales",
-    "Educación física, recreación y deporte",
-    "Educación religiosa",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero inglés",
-    "Matemáticas",
-    "Preescolar",
-    "Primaria",
-    "Sin asignación directa",
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Nariño": 3,
-    "Antioquia": 2,
-    "Valle del Cauca": 8,
-    "Santander": 2,
-    "Huila": 3,
-    "Meta": 12
-  },
-  "conteo_areas": {
-    "Educación religiosa": 2,
-    "Primaria": 6,
-    "Ciencias sociales": 5,
-    "Ciencias naturales química": 1,
-    "Idioma extranjero inglés": 1,
-    "Tecnología e informática": 3,
-    "Educación física, recreación y deporte": 1,
-    "Sin asignación directa": 2,
-    "Humanidades y lengua castellana": 4,
-    "Preescolar": 2,
-    "Matemáticas": 2,
-    "Ciencias naturales física": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
