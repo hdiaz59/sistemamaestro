@@ -1,16 +1,78 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-03 15:11:57 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-09-03 18:42:39 UTC",
+    "total_activas": 3,
+    "total_nuevas": 3,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 3,
+    "departamentos": [
+      "Guaviare"
+    ],
+    "municipios": [
+      "Miraflores",
+      "San Jose Del Guaviare"
+    ],
+    "areas": [
+      "Humanidades y lengua castellana",
+      "Matemáticas"
+    ],
+    "cargos": [
+      "Docente aula",
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Guaviare": 3
+    },
+    "conteo_areas": {
+      "Humanidades y lengua castellana": 1,
+      "Matemáticas": 2
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Humanidades y lengua castellana",
+      "secretaria": "Guaviare",
+      "departamento": "Guaviare",
+      "municipio": "San Jose Del Guaviare",
+      "zona": "San Jose del Guaviare",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 22,
+      "fecha_cierre_texto": "04/09/2026 11:34",
+      "fecha_cierre_iso": "2026-09-04 11:34:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "773d9367106e68d2f3219f536fc2937acca50042630d9fb12b36cbf8d923fd84",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente aula",
+      "area": "Matemáticas",
+      "secretaria": "Guaviare",
+      "departamento": "Guaviare",
+      "municipio": "San Jose Del Guaviare",
+      "zona": "San Jose del Guaviare",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 11,
+      "fecha_cierre_texto": "04/09/2026 11:34",
+      "fecha_cierre_iso": "2026-09-04 11:34:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "037ff3472a033f594ba851d543d82af16b76e03d8f4ce3f905771ce3799ac3bd",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente aula",
+      "area": "Matemáticas",
+      "secretaria": "Guaviare",
+      "departamento": "Guaviare",
+      "municipio": "Miraflores",
+      "zona": "Miraflores",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 11,
+      "fecha_cierre_texto": "04/09/2026 11:34",
+      "fecha_cierre_iso": "2026-09-04 11:34:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "21fefd647fa961833c785b538f597783d3b4511b2e5310eb3a6f90ef9884174f",
+      "estado": "NUEVA"
+    }
+  ]
 }

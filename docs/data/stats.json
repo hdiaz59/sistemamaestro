@@ -1,13 +1,29 @@
 {
-  "ultima_actualizacion": "2026-09-03 15:11:57 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-09-03 18:42:39 UTC",
+  "total_activas": 3,
+  "total_nuevas": 3,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 3,
+  "departamentos": [
+    "Guaviare"
+  ],
+  "municipios": [
+    "Miraflores",
+    "San Jose Del Guaviare"
+  ],
+  "areas": [
+    "Humanidades y lengua castellana",
+    "Matemáticas"
+  ],
+  "cargos": [
+    "Docente aula",
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Guaviare": 3
+  },
+  "conteo_areas": {
+    "Humanidades y lengua castellana": 1,
+    "Matemáticas": 2
+  }
 }
