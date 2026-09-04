@@ -1,13 +1,61 @@
 {
-  "ultima_actualizacion": "2026-09-04 11:08:23 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-09-04 14:58:23 UTC",
+  "total_activas": 18,
+  "total_nuevas": 18,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 18,
+  "departamentos": [
+    "Cundinamarca",
+    "Nariño",
+    "Norte de Santander",
+    "Santander"
+  ],
+  "municipios": [
+    "Barrancabermeja",
+    "Caqueza",
+    "Cogua",
+    "Cucuta",
+    "El Rosal",
+    "Guataqui",
+    "Pasto",
+    "Quebradanegra",
+    "San Antonio Del Tequendama",
+    "San Cayetano",
+    "Ubala",
+    "Villeta"
+  ],
+  "areas": [
+    "Ciencias económicas y políticas",
+    "Ciencias naturales física",
+    "Ciencias naturales y educación ambiental",
+    "Ciencias sociales",
+    "Educación física, recreación y deporte",
+    "Humanidades y lengua castellana",
+    "Idioma extranjero francés",
+    "Matemáticas",
+    "Preescolar",
+    "Primaria"
+  ],
+  "cargos": [
+    "Docente de aula",
+    "Docente tutor (Planta Temporal PTA)"
+  ],
+  "conteo_departamentos": {
+    "Norte de Santander": 6,
+    "Cundinamarca": 9,
+    "Nariño": 1,
+    "Santander": 2
+  },
+  "conteo_areas": {
+    "Humanidades y lengua castellana": 2,
+    "Matemáticas": 3,
+    "Ciencias sociales": 2,
+    "Preescolar": 1,
+    "Primaria": 5,
+    "Educación física, recreación y deporte": 1,
+    "Ciencias naturales y educación ambiental": 1,
+    "Idioma extranjero francés": 1,
+    "Ciencias económicas y políticas": 1,
+    "Ciencias naturales física": 1
+  }
 }
