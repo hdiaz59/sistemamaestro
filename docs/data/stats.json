@@ -1,77 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-05 04:58:00 UTC",
-  "total_activas": 27,
-  "total_nuevas": 27,
+  "ultima_actualizacion": "2026-09-05 08:57:20 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 27,
-  "departamentos": [
-    "Antioquia",
-    "Boyacá",
-    "Cundinamarca",
-    "Nariño",
-    "Norte de Santander",
-    "Santander"
-  ],
-  "municipios": [
-    "Barrancabermeja",
-    "Briceño",
-    "Caqueza",
-    "Cogua",
-    "Cucuta",
-    "El Cocuy",
-    "El Rosal",
-    "Guataqui",
-    "Labranzagrande",
-    "Maripí",
-    "Olaya",
-    "Pasto",
-    "Pauna",
-    "Pisba",
-    "Quebradanegra",
-    "San Antonio Del Tequendama",
-    "San Cayetano",
-    "San Pablo De Borbur",
-    "Topaga",
-    "Ubala",
-    "Villeta"
-  ],
-  "areas": [
-    "Ciencias económicas y políticas",
-    "Ciencias naturales física",
-    "Ciencias naturales y educación ambiental",
-    "Ciencias sociales",
-    "Educación física, recreación y deporte",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero francés",
-    "Matemáticas",
-    "Preescolar",
-    "Primaria",
-    "Sin asignación directa"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula",
-    "Docente tutor (Planta Temporal PTA)"
-  ],
-  "conteo_departamentos": {
-    "Norte de Santander": 6,
-    "Cundinamarca": 9,
-    "Nariño": 1,
-    "Santander": 2,
-    "Antioquia": 1,
-    "Boyacá": 8
-  },
-  "conteo_areas": {
-    "Humanidades y lengua castellana": 3,
-    "Matemáticas": 4,
-    "Ciencias sociales": 2,
-    "Preescolar": 1,
-    "Primaria": 9,
-    "Educación física, recreación y deporte": 3,
-    "Ciencias naturales y educación ambiental": 1,
-    "Idioma extranjero francés": 1,
-    "Ciencias económicas y políticas": 1,
-    "Ciencias naturales física": 1,
-    "Sin asignación directa": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
