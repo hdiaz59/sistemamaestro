@@ -1,25 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-09 01:34:30 UTC",
-  "total_activas": 1,
-  "total_nuevas": 1,
+  "ultima_actualizacion": "2026-09-09 06:43:17 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 1,
-  "departamentos": [
-    "Santander"
-  ],
-  "municipios": [
-    "San Gil"
-  ],
-  "areas": [
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Santander": 1
-  },
-  "conteo_areas": {
-    "Tecnología e informática": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }

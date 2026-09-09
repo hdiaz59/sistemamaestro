@@ -1,44 +1,16 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-09 01:34:30 UTC",
-    "total_activas": 1,
-    "total_nuevas": 1,
+    "ultima_actualizacion": "2026-09-09 06:43:17 UTC",
+    "total_activas": 0,
+    "total_nuevas": 0,
     "total_actualizadas": 0,
-    "total_historico": 1,
-    "departamentos": [
-      "Santander"
-    ],
-    "municipios": [
-      "San Gil"
-    ],
-    "areas": [
-      "Tecnología e informática"
-    ],
-    "cargos": [
-      "Docente de aula"
-    ],
-    "conteo_departamentos": {
-      "Santander": 1
-    },
-    "conteo_areas": {
-      "Tecnología e informática": 1
-    }
+    "total_historico": 0,
+    "departamentos": [],
+    "municipios": [],
+    "areas": [],
+    "cargos": [],
+    "conteo_departamentos": {},
+    "conteo_areas": {}
   },
-  "novedades": [
-    {
-      "cargo": "Docente de aula",
-      "area": "Tecnología e informática",
-      "secretaria": "Santander",
-      "departamento": "Santander",
-      "municipio": "San Gil",
-      "zona": "Guaneta",
-      "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 77,
-      "fecha_cierre_texto": "09/09/2026 11:59",
-      "fecha_cierre_iso": "2026-09-09 11:59:00",
-      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
-      "id_vacante": "ece824eabc13fbb3fa2da3a8aa70bf187553d0a8d98901862f65d2dadc0e0445",
-      "estado": "NUEVA"
-    }
-  ]
+  "novedades": []
 }
