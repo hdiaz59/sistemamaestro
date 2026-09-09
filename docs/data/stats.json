@@ -1,13 +1,71 @@
 {
-  "ultima_actualizacion": "2026-09-09 11:56:44 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-09-09 16:21:12 UTC",
+  "total_activas": 23,
+  "total_nuevas": 23,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 23,
+  "departamentos": [
+    "Antioquia",
+    "Bogotá D.C",
+    "Boyacá",
+    "La Guajira"
+  ],
+  "municipios": [
+    "Amalfi",
+    "Arboletes",
+    "Bogotá D.C",
+    "Carepa",
+    "Caucasia",
+    "Cáceres",
+    "Duitama",
+    "El Bagre",
+    "El Santuario",
+    "Frontino",
+    "Guadalupe",
+    "Necoclí",
+    "Remedios",
+    "Riohacha",
+    "San Luis",
+    "San Pedro De Urabá",
+    "Segovia",
+    "Urrao",
+    "Valdivia",
+    "Vigia Del Fuerte"
+  ],
+  "areas": [
+    "Ciencias naturales y educación ambiental",
+    "Ciencias sociales",
+    "Educación artística – música",
+    "Educación física, recreación y deporte",
+    "Educación ética y en valores",
+    "Humanidades y lengua castellana",
+    "Idioma extranjero inglés",
+    "Matemáticas",
+    "Preescolar",
+    "Primaria",
+    "Tecnología e informática"
+  ],
+  "cargos": [
+    "Docente de aula",
+    "Docente tutor (Planta Temporal PTA)"
+  ],
+  "conteo_departamentos": {
+    "Antioquia": 20,
+    "La Guajira": 1,
+    "Boyacá": 1,
+    "Bogotá D.C": 1
+  },
+  "conteo_areas": {
+    "Primaria": 6,
+    "Matemáticas": 3,
+    "Educación ética y en valores": 1,
+    "Ciencias sociales": 1,
+    "Ciencias naturales y educación ambiental": 1,
+    "Humanidades y lengua castellana": 2,
+    "Preescolar": 4,
+    "Educación artística – música": 2,
+    "Tecnología e informática": 1,
+    "Educación física, recreación y deporte": 1,
+    "Idioma extranjero inglés": 1
+  }
 }
