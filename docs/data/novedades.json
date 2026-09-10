@@ -1,16 +1,44 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-10 13:03:19 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-09-10 17:00:40 UTC",
+    "total_activas": 1,
+    "total_nuevas": 1,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 1,
+    "departamentos": [
+      "Putumayo"
+    ],
+    "municipios": [
+      "Leguizamo"
+    ],
+    "areas": [
+      "Ciencias sociales"
+    ],
+    "cargos": [
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Putumayo": 1
+    },
+    "conteo_areas": {
+      "Ciencias sociales": 1
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Leguizamo",
+      "zona": "Bajo Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 7,
+      "fecha_cierre_texto": "11/09/2026 11:31",
+      "fecha_cierre_iso": "2026-09-11 11:31:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "1a6e9add6390b282950364db8f079b29b139ff098645d314c6f2a4f5492c0a22",
+      "estado": "NUEVA"
+    }
+  ]
 }

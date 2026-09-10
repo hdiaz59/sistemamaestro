@@ -1,13 +1,25 @@
 {
-  "ultima_actualizacion": "2026-09-10 13:03:19 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-09-10 17:00:40 UTC",
+  "total_activas": 1,
+  "total_nuevas": 1,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 1,
+  "departamentos": [
+    "Putumayo"
+  ],
+  "municipios": [
+    "Leguizamo"
+  ],
+  "areas": [
+    "Ciencias sociales"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Putumayo": 1
+  },
+  "conteo_areas": {
+    "Ciencias sociales": 1
+  }
 }
