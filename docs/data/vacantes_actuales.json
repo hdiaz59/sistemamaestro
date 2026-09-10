@@ -1,27 +1,39 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-10 17:00:40 UTC",
-    "total_activas": 1,
-    "total_nuevas": 1,
+    "ultima_actualizacion": "2026-09-10 19:42:05 UTC",
+    "total_activas": 5,
+    "total_nuevas": 5,
     "total_actualizadas": 0,
-    "total_historico": 1,
+    "total_historico": 5,
     "departamentos": [
+      "Bolívar",
+      "Cundinamarca",
       "Putumayo"
     ],
     "municipios": [
+      "Cartagena",
+      "Facatativa",
       "Leguizamo"
     ],
     "areas": [
-      "Ciencias sociales"
+      "Ciencias naturales química",
+      "Ciencias sociales",
+      "Idioma extranjero inglés",
+      "Tecnología e informática"
     ],
     "cargos": [
       "Docente de aula"
     ],
     "conteo_departamentos": {
-      "Putumayo": 1
+      "Putumayo": 1,
+      "Cundinamarca": 1,
+      "Bolívar": 3
     },
     "conteo_areas": {
-      "Ciencias sociales": 1
+      "Ciencias sociales": 2,
+      "Tecnología e informática": 1,
+      "Idioma extranjero inglés": 1,
+      "Ciencias naturales química": 1
     }
   },
   "vacantes": [
@@ -33,11 +45,67 @@
       "municipio": "Leguizamo",
       "zona": "Bajo Putumayo",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 7,
+      "postulados": 51,
       "fecha_cierre_texto": "11/09/2026 11:31",
       "fecha_cierre_iso": "2026-09-11 11:31:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
       "id_vacante": "1a6e9add6390b282950364db8f079b29b139ff098645d314c6f2a4f5492c0a22"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Tecnología e informática",
+      "secretaria": "Facatativá",
+      "departamento": "Cundinamarca",
+      "municipio": "Facatativa",
+      "zona": "Facatativá",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 4,
+      "fecha_cierre_texto": "11/09/2026 14:29",
+      "fecha_cierre_iso": "2026-09-11 14:29:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "e202048c9b311a8a563f2a583254e72141ac28f6f01fa3d928fe613b761e0a35"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Cartagena",
+      "departamento": "Bolívar",
+      "municipio": "Cartagena",
+      "zona": "Cartagena",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 3,
+      "fecha_cierre_texto": "11/09/2026 14:30",
+      "fecha_cierre_iso": "2026-09-11 14:30:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "8780c3d364d8d7622cce05d54a1999f8ac394794c92af831cc756b9ef614a598"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias naturales química",
+      "secretaria": "Cartagena",
+      "departamento": "Bolívar",
+      "municipio": "Cartagena",
+      "zona": "Cartagena",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 3,
+      "fecha_cierre_texto": "11/09/2026 14:30",
+      "fecha_cierre_iso": "2026-09-11 14:30:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "7188722bc7bc876dd69d1a88176ae4c77ba68f5bbdb3dc2c6b7d05a7095a2b24"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Cartagena",
+      "departamento": "Bolívar",
+      "municipio": "Cartagena",
+      "zona": "Cartagena",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 7,
+      "fecha_cierre_texto": "11/09/2026 14:30",
+      "fecha_cierre_iso": "2026-09-11 14:30:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "db7d707d12645adf9d1bb77e8889d1395c0dd631983e9dceaa125b6865808186"
     }
   ]
 }
