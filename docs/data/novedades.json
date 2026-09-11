@@ -1,16 +1,44 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-11 19:34:37 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-09-11 21:58:15 UTC",
+    "total_activas": 1,
+    "total_nuevas": 1,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 1,
+    "departamentos": [
+      "Antioquia"
+    ],
+    "municipios": [
+      "Medellín"
+    ],
+    "areas": [
+      "Matemáticas"
+    ],
+    "cargos": [
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Antioquia": 1
+    },
+    "conteo_areas": {
+      "Matemáticas": 1
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Medellín",
+      "departamento": "Antioquia",
+      "municipio": "Medellín",
+      "zona": "Medellín",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 31,
+      "fecha_cierre_texto": "12/09/2026 16:00",
+      "fecha_cierre_iso": "2026-09-12 16:00:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "c69f031e671c2ec29a4ae43325a50d7cb817862ef23699bf3a9a25c44e7e913c",
+      "estado": "NUEVA"
+    }
+  ]
 }
