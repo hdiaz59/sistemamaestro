@@ -1,25 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-12 04:36:39 UTC",
-  "total_activas": 1,
-  "total_nuevas": 1,
+  "ultima_actualizacion": "2026-09-12 08:51:22 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 1,
-  "departamentos": [
-    "Antioquia"
-  ],
-  "municipios": [
-    "Medellín"
-  ],
-  "areas": [
-    "Matemáticas"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Antioquia": 1
-  },
-  "conteo_areas": {
-    "Matemáticas": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
