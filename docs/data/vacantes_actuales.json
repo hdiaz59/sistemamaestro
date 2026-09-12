@@ -1,6 +1,6 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-12 00:07:04 UTC",
+    "ultima_actualizacion": "2026-09-12 04:36:39 UTC",
     "total_activas": 1,
     "total_nuevas": 1,
     "total_actualizadas": 0,
@@ -33,7 +33,7 @@
       "municipio": "Medellín",
       "zona": "Medellín",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 63,
+      "postulados": 102,
       "fecha_cierre_texto": "12/09/2026 16:00",
       "fecha_cierre_iso": "2026-09-12 16:00:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
