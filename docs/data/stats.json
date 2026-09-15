@@ -1,13 +1,56 @@
 {
-  "ultima_actualizacion": "2026-09-15 12:49:26 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-09-15 17:31:33 UTC",
+  "total_activas": 12,
+  "total_nuevas": 12,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 12,
+  "departamentos": [
+    "Antioquia",
+    "Boyacá",
+    "Cundinamarca",
+    "Putumayo",
+    "Santander",
+    "Valle del Cauca"
+  ],
+  "municipios": [
+    "Fusagasuga",
+    "Medellín",
+    "Orito",
+    "Palmira",
+    "Paya",
+    "Piedecuesta",
+    "Pisba",
+    "Rionegro",
+    "San Pablo De Borbur",
+    "Turbo"
+  ],
+  "areas": [
+    "Ciencias naturales física",
+    "Ciencias naturales y educación ambiental",
+    "Ciencias sociales",
+    "Educación física, recreación y deporte",
+    "Educación religiosa",
+    "Preescolar",
+    "Primaria"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Antioquia": 4,
+    "Valle del Cauca": 1,
+    "Santander": 2,
+    "Putumayo": 1,
+    "Cundinamarca": 1,
+    "Boyacá": 3
+  },
+  "conteo_areas": {
+    "Primaria": 4,
+    "Ciencias sociales": 1,
+    "Ciencias naturales y educación ambiental": 2,
+    "Educación física, recreación y deporte": 2,
+    "Ciencias naturales física": 1,
+    "Educación religiosa": 1,
+    "Preescolar": 1
+  }
 }
