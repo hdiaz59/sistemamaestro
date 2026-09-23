@@ -1,16 +1,98 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-09-23 11:59:08 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-09-23 16:46:19 UTC",
+    "total_activas": 4,
+    "total_nuevas": 4,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 4,
+    "departamentos": [
+      "Antioquia",
+      "Cauca",
+      "Santander"
+    ],
+    "municipios": [
+      "Barrancabermeja",
+      "Medellín",
+      "San Sebastian"
+    ],
+    "areas": [
+      "Matemáticas",
+      "Preescolar",
+      "Primaria",
+      "Tecnología e informática"
+    ],
+    "cargos": [
+      "Docente de aula",
+      "Docente tutor (Planta Temporal PTA)"
+    ],
+    "conteo_departamentos": {
+      "Cauca": 1,
+      "Santander": 2,
+      "Antioquia": 1
+    },
+    "conteo_areas": {
+      "Tecnología e informática": 1,
+      "Primaria": 1,
+      "Preescolar": 1,
+      "Matemáticas": 1
+    }
   },
-  "vacantes": []
+  "vacantes": [
+    {
+      "cargo": "Docente tutor (Planta Temporal PTA)",
+      "area": "Tecnología e informática",
+      "secretaria": "Cauca",
+      "departamento": "Cauca",
+      "municipio": "San Sebastian",
+      "zona": "San Sebastian",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 4,
+      "fecha_cierre_texto": "24/09/2026 11:28",
+      "fecha_cierre_iso": "2026-09-24 11:28:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "4ac754176ab5b22990f6aa9474ffebe4930c23982a8cd1a3f585cf804769e206"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Barrancabermeja",
+      "departamento": "Santander",
+      "municipio": "Barrancabermeja",
+      "zona": "Barrancabermeja",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 7,
+      "fecha_cierre_texto": "24/09/2026 11:33",
+      "fecha_cierre_iso": "2026-09-24 11:33:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "f34bbd63f524ac0b870db2618b1d4925d06c4e0065913ba31d00bff68981737a"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Preescolar",
+      "secretaria": "Barrancabermeja",
+      "departamento": "Santander",
+      "municipio": "Barrancabermeja",
+      "zona": "Barrancabermeja",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 3,
+      "fecha_cierre_texto": "24/09/2026 11:33",
+      "fecha_cierre_iso": "2026-09-24 11:33:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "ae2e8182489b42b75308a95e4755e51c859bfc134508830f8a9e7a707023e0be"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Medellín",
+      "departamento": "Antioquia",
+      "municipio": "Medellín",
+      "zona": "Medellín",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 2,
+      "fecha_cierre_texto": "24/09/2026 11:42",
+      "fecha_cierre_iso": "2026-09-24 11:42:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "5a5d62bc6ff82b60a287fcd11ce7b65a89cbfd3dacdebb45527e3241ce18030f"
+    }
+  ]
 }
