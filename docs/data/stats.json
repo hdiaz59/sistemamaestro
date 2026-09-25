@@ -1,43 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-25 01:36:17 UTC",
-  "total_activas": 15,
-  "total_nuevas": 15,
+  "ultima_actualizacion": "2026-09-25 06:39:24 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 15,
-  "departamentos": [
-    "Bogotá D.C",
-    "Cundinamarca",
-    "Santander"
-  ],
-  "municipios": [
-    "Bogotá D.C",
-    "Bolivar",
-    "El Carmen De Chucuri",
-    "Guaca",
-    "Jesus Maria",
-    "Puerto Wilches",
-    "Soacha",
-    "Sucre"
-  ],
-  "areas": [
-    "Ciencias naturales química",
-    "Primaria",
-    "Sin asignación directa",
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Bogotá D.C": 7,
-    "Cundinamarca": 1,
-    "Santander": 7
-  },
-  "conteo_areas": {
-    "Sin asignación directa": 7,
-    "Tecnología e informática": 1,
-    "Ciencias naturales química": 1,
-    "Primaria": 6
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
