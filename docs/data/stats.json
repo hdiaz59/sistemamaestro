@@ -1,60 +1,13 @@
 {
-  "ultima_actualizacion": "2026-09-29 01:10:33 UTC",
-  "total_activas": 16,
-  "total_nuevas": 16,
+  "ultima_actualizacion": "2026-09-29 06:56:50 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 16,
-  "departamentos": [
-    "Boyacá",
-    "Caldas",
-    "Nariño"
-  ],
-  "municipios": [
-    "Aguadas",
-    "Belalcazar",
-    "Duitama",
-    "Ipiales",
-    "Manizales",
-    "Manzanares",
-    "Norcasia",
-    "Pensilvania",
-    "Risaralda",
-    "Samaná",
-    "Supía",
-    "Villamaría"
-  ],
-  "areas": [
-    "Ciencias económicas y políticas",
-    "Ciencias naturales química",
-    "Ciencias naturales y educación ambiental",
-    "Educación artística – música",
-    "Educación física, recreación y deporte",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero inglés",
-    "Matemáticas",
-    "Primaria",
-    "Sin asignación directa"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de Aula",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Nariño": 2,
-    "Caldas": 13,
-    "Boyacá": 1
-  },
-  "conteo_areas": {
-    "Ciencias económicas y políticas": 1,
-    "Sin asignación directa": 1,
-    "Educación artística – música": 1,
-    "Matemáticas": 2,
-    "Primaria": 5,
-    "Humanidades y lengua castellana": 1,
-    "Educación física, recreación y deporte": 2,
-    "Ciencias naturales química": 1,
-    "Ciencias naturales y educación ambiental": 1,
-    "Idioma extranjero inglés": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
