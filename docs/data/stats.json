@@ -1,9 +1,9 @@
 {
-  "ultima_actualizacion": "2026-10-01 17:28:14 UTC",
-  "total_activas": 73,
-  "total_nuevas": 73,
+  "ultima_actualizacion": "2026-10-01 21:58:06 UTC",
+  "total_activas": 74,
+  "total_nuevas": 74,
   "total_actualizadas": 0,
-  "total_historico": 73,
+  "total_historico": 74,
   "departamentos": [
     "Antioquia",
     "Bogotá D.C",
@@ -82,7 +82,7 @@
     "Magdalena": 3,
     "Bogotá D.C": 14,
     "Casanare": 5,
-    "Córdoba": 32
+    "Córdoba": 33
   },
   "conteo_areas": {
     "Preescolar": 5,
@@ -91,7 +91,7 @@
     "Idioma extranjero inglés": 4,
     "Humanidades y lengua castellana": 2,
     "Ciencias naturales y educación ambiental": 2,
-    "Ciencias sociales": 5,
+    "Ciencias sociales": 6,
     "Educación física, recreación y deporte": 6,
     "Sin asignación directa": 20,
     "Matemáticas": 3,
