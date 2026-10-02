@@ -1,16 +1,188 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-10-02 14:09:32 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-10-02 19:20:22 UTC",
+    "total_activas": 9,
+    "total_nuevas": 9,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 9,
+    "departamentos": [
+      "Putumayo",
+      "Quindío"
+    ],
+    "municipios": [
+      "La Tebaida",
+      "Leguizamo",
+      "Mocoa",
+      "Orito",
+      "Puerto Asis",
+      "Puerto Guzman",
+      "Quimbaya",
+      "Salento"
+    ],
+    "areas": [
+      "Ciencias naturales química",
+      "Ciencias sociales",
+      "Educación artística – música",
+      "Educación física, recreación y deporte",
+      "Humanidades y lengua castellana",
+      "Matemáticas",
+      "Primaria",
+      "Sin asignación directa"
+    ],
+    "cargos": [
+      "Docente Orientador",
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Quindío": 3,
+      "Putumayo": 6
+    },
+    "conteo_areas": {
+      "Educación artística – música": 1,
+      "Educación física, recreación y deporte": 1,
+      "Matemáticas": 2,
+      "Ciencias sociales": 1,
+      "Sin asignación directa": 1,
+      "Primaria": 1,
+      "Humanidades y lengua castellana": 1,
+      "Ciencias naturales química": 1
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación artística – música",
+      "secretaria": "Quindío",
+      "departamento": "Quindío",
+      "municipio": "La Tebaida",
+      "zona": "Valle",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 18,
+      "fecha_cierre_texto": "03/10/2026 10:13",
+      "fecha_cierre_iso": "2026-10-03 10:13:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "da032c563926ab0c18ec6690cf706338810b2a3546dbf7cdd76ea9e7c0cd9337",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación física, recreación y deporte",
+      "secretaria": "Quindío",
+      "departamento": "Quindío",
+      "municipio": "Quimbaya",
+      "zona": "Valle",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 97,
+      "fecha_cierre_texto": "03/10/2026 10:13",
+      "fecha_cierre_iso": "2026-10-03 10:13:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "a83b1c5ebd9e6923186fc1059e4c4bd3b247a1e64dc2616653963b8e3fb3d1e9",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Quindío",
+      "departamento": "Quindío",
+      "municipio": "Salento",
+      "zona": "Fria",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 49,
+      "fecha_cierre_texto": "03/10/2026 10:13",
+      "fecha_cierre_iso": "2026-10-03 10:13:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "89dca8522adc98944e557baba3211a6966834cb70a24be7d891f60ab10829632",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Leguizamo",
+      "zona": "Bajo Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 28,
+      "fecha_cierre_texto": "03/10/2026 10:19",
+      "fecha_cierre_iso": "2026-10-03 10:19:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "02dc0628c899d292ee797973ec82ebb0ddb64ab1731ff39ce777fa771dca98d8",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Puerto Asis",
+      "zona": "Bajo Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 49,
+      "fecha_cierre_texto": "03/10/2026 10:19",
+      "fecha_cierre_iso": "2026-10-03 10:19:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "ed4c7b69f9e96da8d4c6e97de8c5124582994157f78d09e6bc735156075a84c5",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente Orientador",
+      "area": "Sin asignación directa",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Mocoa",
+      "zona": "Medio Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 22,
+      "fecha_cierre_texto": "03/10/2026 10:19",
+      "fecha_cierre_iso": "2026-10-03 10:19:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "8c75bbf3f33e23c50fc29727d2e8854461e7c26b34ed89fc7955dd788431f886",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Puerto Guzman",
+      "zona": "Medio Putumayo",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 84,
+      "fecha_cierre_texto": "03/10/2026 10:20",
+      "fecha_cierre_iso": "2026-10-03 10:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "3412775d3cd8ab76b7681fa9d811ce843724a92bf855bbe3e6ced259cdcb2893",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Humanidades y lengua castellana",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Puerto Asis",
+      "zona": "Bajo Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 30,
+      "fecha_cierre_texto": "03/10/2026 10:20",
+      "fecha_cierre_iso": "2026-10-03 10:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "74157abd158b604cde55c17b5fe316ce59ed3f8796b5a22d57590638e52d21cd",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias naturales química",
+      "secretaria": "Putumayo",
+      "departamento": "Putumayo",
+      "municipio": "Orito",
+      "zona": "Bajo Putumayo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 27,
+      "fecha_cierre_texto": "03/10/2026 10:20",
+      "fecha_cierre_iso": "2026-10-03 10:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "09bdd24c57225b454deb7941b08a0261b1642062b9b2f6715edfc688f7af6998",
+      "estado": "NUEVA"
+    }
+  ]
 }
