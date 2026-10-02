@@ -1,22 +1,34 @@
 {
-  "ultima_actualizacion": "2026-10-02 19:20:22 UTC",
-  "total_activas": 9,
-  "total_nuevas": 9,
+  "ultima_actualizacion": "2026-10-02 23:10:56 UTC",
+  "total_activas": 26,
+  "total_nuevas": 26,
   "total_actualizadas": 0,
-  "total_historico": 9,
+  "total_historico": 26,
   "departamentos": [
+    "Caquetá",
     "Putumayo",
     "Quindío"
   ],
   "municipios": [
+    "Cartagena Del Chairá",
+    "Curillo",
+    "El Doncello",
+    "El Paujil",
+    "La Montañita",
     "La Tebaida",
     "Leguizamo",
+    "Milán",
     "Mocoa",
     "Orito",
     "Puerto Asis",
     "Puerto Guzman",
+    "Puerto Rico",
     "Quimbaya",
-    "Salento"
+    "Salento",
+    "San Vicente Del Caguan",
+    "Solano",
+    "Solita",
+    "Valparaiso"
   ],
   "areas": [
     "Ciencias naturales química",
@@ -30,20 +42,22 @@
   ],
   "cargos": [
     "Docente Orientador",
-    "Docente de aula"
+    "Docente de aula",
+    "Docente tutor (Planta Temporal PTA)"
   ],
   "conteo_departamentos": {
     "Quindío": 3,
-    "Putumayo": 6
+    "Putumayo": 6,
+    "Caquetá": 17
   },
   "conteo_areas": {
     "Educación artística – música": 1,
     "Educación física, recreación y deporte": 1,
     "Matemáticas": 2,
     "Ciencias sociales": 1,
-    "Sin asignación directa": 1,
+    "Sin asignación directa": 16,
     "Primaria": 1,
-    "Humanidades y lengua castellana": 1,
+    "Humanidades y lengua castellana": 3,
     "Ciencias naturales química": 1
   }
 }
