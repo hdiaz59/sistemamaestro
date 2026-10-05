@@ -1,13 +1,74 @@
 {
-  "ultima_actualizacion": "2026-10-05 15:09:24 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-10-05 22:01:44 UTC",
+  "total_activas": 33,
+  "total_nuevas": 33,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 33,
+  "departamentos": [
+    "Antioquia",
+    "Córdoba",
+    "Risaralda"
+  ],
+  "municipios": [
+    "Amalfi",
+    "Angostura",
+    "Anorí",
+    "Apia",
+    "Caldas",
+    "Caucasia",
+    "Cañasgordas",
+    "Concordia",
+    "Copacabana",
+    "Cáceres",
+    "El Bagre",
+    "Guatica",
+    "Heliconia",
+    "Montería",
+    "Nechí",
+    "Necoclí",
+    "Peque",
+    "San Pedro De Urabá",
+    "Santafe De Antioquia",
+    "Sonsón",
+    "Sopetrán",
+    "Toledo",
+    "Támesis",
+    "Vegachí",
+    "Yondó",
+    "Zaragoza"
+  ],
+  "areas": [
+    "Ciencias naturales y educación ambiental",
+    "Ciencias sociales",
+    "Educación artística – danzas",
+    "Educación artística – música",
+    "Educación física, recreación y deporte",
+    "Humanidades y lengua castellana",
+    "Idioma extranjero inglés",
+    "Matemáticas",
+    "Preescolar",
+    "Primaria",
+    "Tecnología e informática"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Risaralda": 2,
+    "Antioquia": 29,
+    "Córdoba": 2
+  },
+  "conteo_areas": {
+    "Primaria": 10,
+    "Tecnología e informática": 4,
+    "Humanidades y lengua castellana": 2,
+    "Preescolar": 4,
+    "Educación artística – danzas": 1,
+    "Ciencias sociales": 5,
+    "Educación artística – música": 2,
+    "Ciencias naturales y educación ambiental": 2,
+    "Matemáticas": 1,
+    "Idioma extranjero inglés": 1,
+    "Educación física, recreación y deporte": 1
+  }
 }
