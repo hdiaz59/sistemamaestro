@@ -1,16 +1,128 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-10-07 19:52:01 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-10-08 00:02:58 UTC",
+    "total_activas": 6,
+    "total_nuevas": 6,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 6,
+    "departamentos": [
+      "Bogotá D.C"
+    ],
+    "municipios": [
+      "Bogotá D.C"
+    ],
+    "areas": [
+      "Ciencias económicas y políticas",
+      "Ciencias naturales física",
+      "Educación física, recreación y deporte",
+      "Idioma extranjero inglés",
+      "Sin asignación directa"
+    ],
+    "cargos": [
+      "Docente Orientador",
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Bogotá D.C": 6
+    },
+    "conteo_areas": {
+      "Sin asignación directa": 1,
+      "Educación física, recreación y deporte": 1,
+      "Ciencias naturales física": 1,
+      "Ciencias económicas y políticas": 1,
+      "Idioma extranjero inglés": 2
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente Orientador",
+      "area": "Sin asignación directa",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Usaquen",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 43,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "5c0ff8b0d74f9196dc5ad0acb043f988f42c672b2b6db286c1fd23ef6f0db6b4",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación física, recreación y deporte",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Engativa",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 119,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "25b03286cb109ceac300fac37871f19e40b5c51c055168c7cbcc5502e669219c",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias naturales física",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Barrios Unidos",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 31,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "bfa371eb7c690035ac7dae5084b6ff5856d1562e398500584a952f86fb3e8600",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias económicas y políticas",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Los Martires",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 88,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "117ecb8a414cfebdf4bc41c501221461bfe367c78b152d71ab70ed73d9f566b9",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Ciudad Bolivar",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 30,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "1c5798e165afabbb8762635a7875226f6e29a072a29fe8e2c0759b50d5e7eff0",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Ciudad Bolivar",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 22,
+      "fecha_cierre_texto": "08/10/2026 14:54",
+      "fecha_cierre_iso": "2026-10-08 14:54:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "8bc6c6be22ed5d7939540b46459c59004752acacf333e8d0cc207188d496a7ed",
+      "estado": "NUEVA"
+    }
+  ]
 }
