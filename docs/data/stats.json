@@ -1,34 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-08 00:02:58 UTC",
-  "total_activas": 6,
-  "total_nuevas": 6,
+  "ultima_actualizacion": "2026-10-08 06:06:23 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 6,
-  "departamentos": [
-    "Bogotá D.C"
-  ],
-  "municipios": [
-    "Bogotá D.C"
-  ],
-  "areas": [
-    "Ciencias económicas y políticas",
-    "Ciencias naturales física",
-    "Educación física, recreación y deporte",
-    "Idioma extranjero inglés",
-    "Sin asignación directa"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Bogotá D.C": 6
-  },
-  "conteo_areas": {
-    "Sin asignación directa": 1,
-    "Educación física, recreación y deporte": 1,
-    "Ciencias naturales física": 1,
-    "Ciencias económicas y políticas": 1,
-    "Idioma extranjero inglés": 2
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
