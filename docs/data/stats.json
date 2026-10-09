@@ -1,59 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-08 23:53:32 UTC",
-  "total_activas": 16,
-  "total_nuevas": 16,
+  "ultima_actualizacion": "2026-10-09 05:08:23 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 16,
-  "departamentos": [
-    "Caldas",
-    "Caquetá",
-    "Norte de Santander",
-    "Valle del Cauca"
-  ],
-  "municipios": [
-    "Belalcazar",
-    "Cartago",
-    "Cucuta",
-    "Florencia",
-    "La Dorada",
-    "Marquetalia",
-    "Neira",
-    "Palmira",
-    "Risaralda",
-    "Samaná",
-    "Viterbo"
-  ],
-  "areas": [
-    "Ciencias sociales",
-    "Educación artística - artes plásticas",
-    "Educación artística – danzas",
-    "Educación artística – música",
-    "Filosofía",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero inglés",
-    "Primaria",
-    "Sin asignación directa",
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Valle del Cauca": 2,
-    "Caldas": 8,
-    "Norte de Santander": 5,
-    "Caquetá": 1
-  },
-  "conteo_areas": {
-    "Tecnología e informática": 2,
-    "Idioma extranjero inglés": 3,
-    "Primaria": 4,
-    "Ciencias sociales": 1,
-    "Educación artística – música": 1,
-    "Sin asignación directa": 1,
-    "Humanidades y lengua castellana": 1,
-    "Educación artística - artes plásticas": 1,
-    "Filosofía": 1,
-    "Educación artística – danzas": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
