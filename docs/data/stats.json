@@ -1,30 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-10 01:55:31 UTC",
-  "total_activas": 2,
-  "total_nuevas": 2,
+  "ultima_actualizacion": "2026-10-10 08:12:55 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 2,
-  "departamentos": [
-    "Nariño",
-    "Valle del Cauca"
-  ],
-  "municipios": [
-    "Cartago",
-    "Pasto"
-  ],
-  "areas": [
-    "Educación física, recreación y deporte",
-    "Preescolar"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Nariño": 1,
-    "Valle del Cauca": 1
-  },
-  "conteo_areas": {
-    "Preescolar": 1,
-    "Educación física, recreación y deporte": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
