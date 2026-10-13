@@ -1,16 +1,143 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-10-13 15:17:18 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-10-13 20:47:03 UTC",
+    "total_activas": 7,
+    "total_nuevas": 7,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 7,
+    "departamentos": [
+      "Cundinamarca",
+      "Santander"
+    ],
+    "municipios": [
+      "Bucaramanga",
+      "Cabrera",
+      "La Vega",
+      "Pacho",
+      "Paime",
+      "Vergara"
+    ],
+    "areas": [
+      "Ciencias sociales",
+      "Educación religiosa",
+      "Idioma extranjero inglés",
+      "Preescolar",
+      "Primaria"
+    ],
+    "cargos": [
+      "Docente Aula",
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Cundinamarca": 5,
+      "Santander": 2
+    },
+    "conteo_areas": {
+      "Preescolar": 1,
+      "Ciencias sociales": 2,
+      "Primaria": 2,
+      "Idioma extranjero inglés": 1,
+      "Educación religiosa": 1
+    }
   },
-  "vacantes": []
+  "vacantes": [
+    {
+      "cargo": "Docente Aula",
+      "area": "Preescolar",
+      "secretaria": "Cundinamarca",
+      "departamento": "Cundinamarca",
+      "municipio": "La Vega",
+      "zona": "Gualiva",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 5,
+      "fecha_cierre_texto": "14/10/2026 15:38",
+      "fecha_cierre_iso": "2026-10-14 15:38:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "0fe90cd8b2ecc69c84892de34662668e30287b9d49b4cd011ae0a965d0084f87"
+    },
+    {
+      "cargo": "Docente Aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Cundinamarca",
+      "departamento": "Cundinamarca",
+      "municipio": "Vergara",
+      "zona": "Gualiva",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 0,
+      "fecha_cierre_texto": "14/10/2026 15:38",
+      "fecha_cierre_iso": "2026-10-14 15:38:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "2c76f5b3b15abbd7cc05826869301dc063184c5c5a2cd35206b12dc5f4bba081"
+    },
+    {
+      "cargo": "Docente Aula",
+      "area": "Primaria",
+      "secretaria": "Cundinamarca",
+      "departamento": "Cundinamarca",
+      "municipio": "Pacho",
+      "zona": "Rio Negro",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 8,
+      "fecha_cierre_texto": "14/10/2026 15:38",
+      "fecha_cierre_iso": "2026-10-14 15:38:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "6a86a1413032f9b4119f2fdff7c21f7cc6602ff96734eee88adab1f3a2749eb0"
+    },
+    {
+      "cargo": "Docente Aula",
+      "area": "Primaria",
+      "secretaria": "Cundinamarca",
+      "departamento": "Cundinamarca",
+      "municipio": "Paime",
+      "zona": "Rio Negro",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 7,
+      "fecha_cierre_texto": "14/10/2026 15:38",
+      "fecha_cierre_iso": "2026-10-14 15:38:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "edb97e60fab3aa73adce4119736d12b0e020d074ded65059bda03209f476e648"
+    },
+    {
+      "cargo": "Docente Aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Cundinamarca",
+      "departamento": "Cundinamarca",
+      "municipio": "Cabrera",
+      "zona": "Sumapaz",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 3,
+      "fecha_cierre_texto": "14/10/2026 15:38",
+      "fecha_cierre_iso": "2026-10-14 15:38:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "027201acf6ba08d2c3228fdc1beae3adc4156bb705a303b6411020e78cd7d567"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 0,
+      "fecha_cierre_texto": "14/10/2026 15:44",
+      "fecha_cierre_iso": "2026-10-14 15:44:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "320ba7c826a6686e113f734afd2655e6c61a09cbdcbad477cff5a5843b23b4a1"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación religiosa",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 0,
+      "fecha_cierre_texto": "14/10/2026 15:44",
+      "fecha_cierre_iso": "2026-10-14 15:44:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "69f959d95e5c32b1ba42c5cbd2e16d2c7a6b2739524b3401686212381a1ac466"
+    }
+  ]
 }

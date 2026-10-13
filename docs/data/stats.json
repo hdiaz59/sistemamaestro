@@ -1,13 +1,41 @@
 {
-  "ultima_actualizacion": "2026-10-13 15:17:18 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-10-13 20:47:03 UTC",
+  "total_activas": 7,
+  "total_nuevas": 7,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 7,
+  "departamentos": [
+    "Cundinamarca",
+    "Santander"
+  ],
+  "municipios": [
+    "Bucaramanga",
+    "Cabrera",
+    "La Vega",
+    "Pacho",
+    "Paime",
+    "Vergara"
+  ],
+  "areas": [
+    "Ciencias sociales",
+    "Educación religiosa",
+    "Idioma extranjero inglés",
+    "Preescolar",
+    "Primaria"
+  ],
+  "cargos": [
+    "Docente Aula",
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Cundinamarca": 5,
+    "Santander": 2
+  },
+  "conteo_areas": {
+    "Preescolar": 1,
+    "Ciencias sociales": 2,
+    "Primaria": 2,
+    "Idioma extranjero inglés": 1,
+    "Educación religiosa": 1
+  }
 }
