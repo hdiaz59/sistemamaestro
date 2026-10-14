@@ -1,41 +1,77 @@
 {
-  "ultima_actualizacion": "2026-10-13 20:47:03 UTC",
-  "total_activas": 7,
-  "total_nuevas": 7,
+  "ultima_actualizacion": "2026-10-14 00:11:24 UTC",
+  "total_activas": 29,
+  "total_nuevas": 29,
   "total_actualizadas": 0,
-  "total_historico": 7,
+  "total_historico": 29,
   "departamentos": [
+    "Boyacá",
+    "Cauca",
     "Cundinamarca",
+    "Córdoba",
     "Santander"
   ],
   "municipios": [
+    "Argelia",
+    "Balboa",
     "Bucaramanga",
     "Cabrera",
+    "Cajibio",
+    "Caldono",
+    "Caloto",
+    "El Tambo",
+    "Inza",
     "La Vega",
+    "Maripí",
+    "Mercaderes",
+    "Muzo",
+    "Otanche",
     "Pacho",
+    "Paez",
     "Paime",
+    "Piamonte",
+    "Purace",
+    "Sahagun",
+    "Santa Rosa",
+    "Sucre",
     "Vergara"
   ],
   "areas": [
+    "Ciencias naturales química",
+    "Ciencias naturales y educación ambiental",
     "Ciencias sociales",
+    "Educación física, recreación y deporte",
     "Educación religiosa",
     "Idioma extranjero inglés",
+    "Matemáticas",
     "Preescolar",
-    "Primaria"
+    "Primaria",
+    "Sin asignación directa",
+    "Tecnología e informática"
   ],
   "cargos": [
     "Docente Aula",
+    "Docente Orientador",
     "Docente de aula"
   ],
   "conteo_departamentos": {
     "Cundinamarca": 5,
-    "Santander": 2
+    "Santander": 2,
+    "Boyacá": 3,
+    "Córdoba": 1,
+    "Cauca": 18
   },
   "conteo_areas": {
-    "Preescolar": 1,
-    "Ciencias sociales": 2,
-    "Primaria": 2,
+    "Preescolar": 3,
+    "Ciencias sociales": 3,
+    "Primaria": 9,
     "Idioma extranjero inglés": 1,
-    "Educación religiosa": 1
+    "Educación religiosa": 1,
+    "Educación física, recreación y deporte": 4,
+    "Ciencias naturales y educación ambiental": 2,
+    "Sin asignación directa": 1,
+    "Tecnología e informática": 1,
+    "Ciencias naturales química": 1,
+    "Matemáticas": 3
   }
 }
