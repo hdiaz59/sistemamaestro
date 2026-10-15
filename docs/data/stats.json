@@ -1,13 +1,78 @@
 {
-  "ultima_actualizacion": "2026-10-15 19:13:57 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-10-15 22:25:51 UTC",
+  "total_activas": 24,
+  "total_nuevas": 24,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 24,
+  "departamentos": [
+    "Antioquia",
+    "Arauca",
+    "Atlántico",
+    "Cauca",
+    "Cundinamarca",
+    "Huila",
+    "Putumayo",
+    "Santander",
+    "Valle del Cauca"
+  ],
+  "municipios": [
+    "Barranquilla",
+    "Cartago",
+    "Inza",
+    "Leguizamo",
+    "Medellín",
+    "Mocoa",
+    "Neiva",
+    "Orito",
+    "Piedecuesta",
+    "Sabaneta",
+    "Soacha",
+    "Tame",
+    "Villagarzon"
+  ],
+  "areas": [
+    "Ciencias naturales física",
+    "Ciencias naturales química",
+    "Ciencias naturales y educación ambiental",
+    "Ciencias sociales",
+    "Educación artística - artes plásticas",
+    "Educación artística – música",
+    "Humanidades y lengua castellana",
+    "Idioma extranjero inglés",
+    "Matemáticas",
+    "Preescolar",
+    "Primaria",
+    "Sin asignación directa",
+    "Tecnología e informática"
+  ],
+  "cargos": [
+    "Docente Orientador",
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Arauca": 1,
+    "Valle del Cauca": 1,
+    "Antioquia": 2,
+    "Cauca": 1,
+    "Putumayo": 5,
+    "Santander": 4,
+    "Atlántico": 6,
+    "Cundinamarca": 2,
+    "Huila": 2
+  },
+  "conteo_areas": {
+    "Idioma extranjero inglés": 2,
+    "Ciencias naturales química": 1,
+    "Humanidades y lengua castellana": 2,
+    "Primaria": 7,
+    "Sin asignación directa": 3,
+    "Ciencias naturales física": 1,
+    "Educación artística – música": 1,
+    "Ciencias sociales": 1,
+    "Tecnología e informática": 1,
+    "Matemáticas": 2,
+    "Ciencias naturales y educación ambiental": 1,
+    "Preescolar": 1,
+    "Educación artística - artes plásticas": 1
+  }
 }
