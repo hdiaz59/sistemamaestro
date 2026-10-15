@@ -1,57 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-15 00:54:52 UTC",
-  "total_activas": 14,
-  "total_nuevas": 14,
+  "ultima_actualizacion": "2026-10-15 05:38:30 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 14,
-  "departamentos": [
-    "Antioquia",
-    "Cauca",
-    "Guaviare",
-    "Vichada"
-  ],
-  "municipios": [
-    "Cañasgordas",
-    "Ciudad Bolívar",
-    "Cumaribo",
-    "Cáceres",
-    "El Retorno",
-    "Envigado",
-    "Inza",
-    "Necoclí",
-    "San Jose Del Guaviare",
-    "San Pedro De Urabá",
-    "Santa Rosalia",
-    "Tarazá",
-    "Yondó"
-  ],
-  "areas": [
-    "Ciencias sociales",
-    "Educación física, recreación y deporte",
-    "Filosofía",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero inglés",
-    "Matemáticas",
-    "Primaria",
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Cauca": 1,
-    "Antioquia": 9,
-    "Guaviare": 2,
-    "Vichada": 2
-  },
-  "conteo_areas": {
-    "Primaria": 4,
-    "Ciencias sociales": 1,
-    "Matemáticas": 3,
-    "Filosofía": 1,
-    "Idioma extranjero inglés": 1,
-    "Humanidades y lengua castellana": 2,
-    "Tecnología e informática": 1,
-    "Educación física, recreación y deporte": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
