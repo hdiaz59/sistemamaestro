@@ -1,13 +1,31 @@
 {
-  "ultima_actualizacion": "2026-10-19 20:25:50 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-10-19 23:53:08 UTC",
+  "total_activas": 3,
+  "total_nuevas": 3,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 3,
+  "departamentos": [
+    "Bogotá D.C",
+    "Valle del Cauca"
+  ],
+  "municipios": [
+    "Bogotá D.C",
+    "Yumbo"
+  ],
+  "areas": [
+    "Primaria",
+    "Sin asignación directa"
+  ],
+  "cargos": [
+    "Docente Orientador",
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Bogotá D.C": 2,
+    "Valle del Cauca": 1
+  },
+  "conteo_areas": {
+    "Primaria": 1,
+    "Sin asignación directa": 2
+  }
 }

@@ -1,16 +1,80 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-10-19 20:25:50 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-10-19 23:53:08 UTC",
+    "total_activas": 3,
+    "total_nuevas": 3,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 3,
+    "departamentos": [
+      "Bogotá D.C",
+      "Valle del Cauca"
+    ],
+    "municipios": [
+      "Bogotá D.C",
+      "Yumbo"
+    ],
+    "areas": [
+      "Primaria",
+      "Sin asignación directa"
+    ],
+    "cargos": [
+      "Docente Orientador",
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Bogotá D.C": 2,
+      "Valle del Cauca": 1
+    },
+    "conteo_areas": {
+      "Primaria": 1,
+      "Sin asignación directa": 2
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "San Cristobal",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 212,
+      "fecha_cierre_texto": "20/10/2026 16:11",
+      "fecha_cierre_iso": "2026-10-20 16:11:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "bfa9a83f33d119cdb56f584ac91c1756bbe56a300ddb8201f9a3dbc43992d338",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente Orientador",
+      "area": "Sin asignación directa",
+      "secretaria": "Bogotá",
+      "departamento": "Bogotá D.C",
+      "municipio": "Bogotá D.C",
+      "zona": "Suba",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 52,
+      "fecha_cierre_texto": "20/10/2026 16:11",
+      "fecha_cierre_iso": "2026-10-20 16:11:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "be9f9a26c248c532d83b48281bbae03d667b3db9e9497de33321ffac3f2e5cb3",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente Orientador",
+      "area": "Sin asignación directa",
+      "secretaria": "Yumbo",
+      "departamento": "Valle del Cauca",
+      "municipio": "Yumbo",
+      "zona": "Yumbo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 14,
+      "fecha_cierre_texto": "20/10/2026 16:13",
+      "fecha_cierre_iso": "2026-10-20 16:13:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "020cbffd1bf2e1818b9a4ad036e4d191986e215760a5096e4406544c1b73c80e",
+      "estado": "NUEVA"
+    }
+  ]
 }
