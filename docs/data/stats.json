@@ -1,40 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-21 00:25:19 UTC",
-  "total_activas": 6,
-  "total_nuevas": 6,
+  "ultima_actualizacion": "2026-10-21 05:09:58 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 6,
-  "departamentos": [
-    "Arauca",
-    "Cundinamarca"
-  ],
-  "municipios": [
-    "Arauca",
-    "Arauquita",
-    "Fortul",
-    "Soacha",
-    "Tame"
-  ],
-  "areas": [
-    "Educación física, recreación y deporte",
-    "Humanidades y lengua castellana",
-    "Idioma extranjero inglés",
-    "Primaria",
-    "Sin asignación directa"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Cundinamarca": 1,
-    "Arauca": 5
-  },
-  "conteo_areas": {
-    "Primaria": 2,
-    "Humanidades y lengua castellana": 1,
-    "Sin asignación directa": 1,
-    "Idioma extranjero inglés": 1,
-    "Educación física, recreación y deporte": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
