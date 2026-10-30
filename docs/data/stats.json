@@ -1,71 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-30 00:25:50 UTC",
-  "total_activas": 29,
-  "total_nuevas": 29,
+  "ultima_actualizacion": "2026-10-30 06:17:16 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 29,
-  "departamentos": [
-    "Antioquia",
-    "Boyacá",
-    "Huila",
-    "Magdalena",
-    "Risaralda",
-    "Sucre",
-    "Valle del Cauca"
-  ],
-  "municipios": [
-    "Algarrobo",
-    "Apia",
-    "Ariguani",
-    "Baraya",
-    "El Banco",
-    "Fundacion",
-    "Gigante",
-    "Guamal",
-    "Majagual",
-    "Medellín",
-    "Nueva Granada",
-    "Otanche",
-    "Plato",
-    "Remolino",
-    "Santa Ana",
-    "Santa Barbara De Pinto",
-    "Tenerife",
-    "Turbo",
-    "Yumbo",
-    "Zona Bananera"
-  ],
-  "areas": [
-    "Ciencias naturales física",
-    "Educación física, recreación y deporte",
-    "Humanidades y lengua castellana",
-    "Matemáticas",
-    "Preescolar",
-    "Primaria",
-    "Sin asignación directa",
-    "Tecnología e informática"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Antioquia": 2,
-    "Valle del Cauca": 1,
-    "Boyacá": 1,
-    "Huila": 2,
-    "Sucre": 7,
-    "Magdalena": 13,
-    "Risaralda": 3
-  },
-  "conteo_areas": {
-    "Ciencias naturales física": 1,
-    "Primaria": 6,
-    "Preescolar": 9,
-    "Sin asignación directa": 7,
-    "Educación física, recreación y deporte": 2,
-    "Humanidades y lengua castellana": 2,
-    "Matemáticas": 1,
-    "Tecnología e informática": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
