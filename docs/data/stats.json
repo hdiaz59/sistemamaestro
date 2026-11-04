@@ -1,13 +1,34 @@
 {
-  "ultima_actualizacion": "2026-11-04 09:57:40 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-11-04 17:54:14 UTC",
+  "total_activas": 4,
+  "total_nuevas": 4,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 4,
+  "departamentos": [
+    "Cauca",
+    "Cundinamarca",
+    "Santander"
+  ],
+  "municipios": [
+    "Cimitarra",
+    "El Carmen De Chucuri",
+    "Facatativa",
+    "Popayan"
+  ],
+  "areas": [
+    "Preescolar",
+    "Primaria"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Cundinamarca": 1,
+    "Cauca": 1,
+    "Santander": 2
+  },
+  "conteo_areas": {
+    "Primaria": 3,
+    "Preescolar": 1
+  }
 }

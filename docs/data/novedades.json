@@ -1,16 +1,98 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-11-04 09:57:40 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-11-04 17:54:14 UTC",
+    "total_activas": 4,
+    "total_nuevas": 4,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 4,
+    "departamentos": [
+      "Cauca",
+      "Cundinamarca",
+      "Santander"
+    ],
+    "municipios": [
+      "Cimitarra",
+      "El Carmen De Chucuri",
+      "Facatativa",
+      "Popayan"
+    ],
+    "areas": [
+      "Preescolar",
+      "Primaria"
+    ],
+    "cargos": [
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Cundinamarca": 1,
+      "Cauca": 1,
+      "Santander": 2
+    },
+    "conteo_areas": {
+      "Primaria": 3,
+      "Preescolar": 1
+    }
   },
-  "novedades": []
+  "novedades": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Facatativá",
+      "departamento": "Cundinamarca",
+      "municipio": "Facatativa",
+      "zona": "Facatativá",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 56,
+      "fecha_cierre_texto": "05/11/2026 10:28",
+      "fecha_cierre_iso": "2026-11-05 10:28:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "09510c68b3c5d740d74963c45457e55a8e5dfd35f84771d5fa9b68bbf785dbc4",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Preescolar",
+      "secretaria": "Popayán",
+      "departamento": "Cauca",
+      "municipio": "Popayan",
+      "zona": "Popayán",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 34,
+      "fecha_cierre_texto": "05/11/2026 10:30",
+      "fecha_cierre_iso": "2026-11-05 10:30:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "4176635448e0ba7dbb5704f8cc221c8bb7d22e19d8d014685f5c09ea10f07b43",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Santander",
+      "departamento": "Santander",
+      "municipio": "El Carmen De Chucuri",
+      "zona": "El Carmen de Chucuri",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 25,
+      "fecha_cierre_texto": "05/11/2026 10:31",
+      "fecha_cierre_iso": "2026-11-05 10:31:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "d22fb13a56aa510187aa11ea9826994500b3e32df6fdb4da84a24bcbe7a16ff2",
+      "estado": "NUEVA"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Primaria",
+      "secretaria": "Santander",
+      "departamento": "Santander",
+      "municipio": "Cimitarra",
+      "zona": "Cimitarra",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 28,
+      "fecha_cierre_texto": "05/11/2026 10:31",
+      "fecha_cierre_iso": "2026-11-05 10:31:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "2f1596621c7f79634b500d7380519a27d1bd5de741c3e2f5b784b3a84c184848",
+      "estado": "NUEVA"
+    }
+  ]
 }
