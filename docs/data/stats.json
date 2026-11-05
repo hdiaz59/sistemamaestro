@@ -1,57 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-05 03:38:45 UTC",
-  "total_activas": 24,
-  "total_nuevas": 24,
+  "ultima_actualizacion": "2026-11-05 11:33:20 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 24,
-  "departamentos": [
-    "Caquetá",
-    "Cauca",
-    "Cundinamarca",
-    "Santander"
-  ],
-  "municipios": [
-    "Cartagena Del Chairá",
-    "Cimitarra",
-    "Curillo",
-    "El Carmen De Chucuri",
-    "El Doncello",
-    "Facatativa",
-    "La Montañita",
-    "Milán",
-    "Popayan",
-    "Puerto Rico",
-    "San José Del Fragua",
-    "San Vicente Del Caguan",
-    "Solano",
-    "Valparaiso"
-  ],
-  "areas": [
-    "Ciencias naturales química",
-    "Ciencias naturales y educación ambiental",
-    "Ciencias sociales",
-    "Humanidades y lengua castellana",
-    "Preescolar",
-    "Primaria",
-    "Sin asignación directa"
-  ],
-  "cargos": [
-    "Docente Orientador",
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Cundinamarca": 1,
-    "Cauca": 1,
-    "Santander": 2,
-    "Caquetá": 20
-  },
-  "conteo_areas": {
-    "Primaria": 7,
-    "Preescolar": 1,
-    "Ciencias naturales química": 1,
-    "Ciencias sociales": 1,
-    "Humanidades y lengua castellana": 1,
-    "Ciencias naturales y educación ambiental": 1,
-    "Sin asignación directa": 12
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
