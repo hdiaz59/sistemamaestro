@@ -1,13 +1,31 @@
 {
-  "ultima_actualizacion": "2026-11-10 11:33:52 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-11-10 18:50:44 UTC",
+  "total_activas": 6,
+  "total_nuevas": 6,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 6,
+  "departamentos": [
+    "Magdalena"
+  ],
+  "municipios": [
+    "Ariguani",
+    "Chibolo",
+    "El Banco",
+    "Puebloviejo",
+    "Santa Ana"
+  ],
+  "areas": [
+    "Idioma extranjero inglés",
+    "Matemáticas"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Magdalena": 6
+  },
+  "conteo_areas": {
+    "Idioma extranjero inglés": 3,
+    "Matemáticas": 3
+  }
 }

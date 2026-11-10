@@ -1,16 +1,119 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-11-10 11:33:52 UTC",
-    "total_activas": 0,
-    "total_nuevas": 0,
+    "ultima_actualizacion": "2026-11-10 18:50:44 UTC",
+    "total_activas": 6,
+    "total_nuevas": 6,
     "total_actualizadas": 0,
-    "total_historico": 0,
-    "departamentos": [],
-    "municipios": [],
-    "areas": [],
-    "cargos": [],
-    "conteo_departamentos": {},
-    "conteo_areas": {}
+    "total_historico": 6,
+    "departamentos": [
+      "Magdalena"
+    ],
+    "municipios": [
+      "Ariguani",
+      "Chibolo",
+      "El Banco",
+      "Puebloviejo",
+      "Santa Ana"
+    ],
+    "areas": [
+      "Idioma extranjero inglés",
+      "Matemáticas"
+    ],
+    "cargos": [
+      "Docente de aula"
+    ],
+    "conteo_departamentos": {
+      "Magdalena": 6
+    },
+    "conteo_areas": {
+      "Idioma extranjero inglés": 3,
+      "Matemáticas": 3
+    }
   },
-  "vacantes": []
+  "vacantes": [
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "Ariguani",
+      "zona": "Ariguani",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 1,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "a3dd2176bba47c562b3ff9e97e4612b69b9b022193c29e00b75232ede54b0191"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "El Banco",
+      "zona": "El Banco",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 3,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "c0a97924ee69acff0028f631047252051ce36df000c510adf0d7fddaccf01582"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Idioma extranjero inglés",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "Chibolo",
+      "zona": "Chibolo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 0,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "5971140e3bb786a351d8d87125ac050644ec034965351f5ee051b9d1358e97e8"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "Ariguani",
+      "zona": "Ariguani",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 4,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "c84d4f59d1017d7dbd8079eb4f9a523b1202482ba380323629f10ac6da2062f2"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "Puebloviejo",
+      "zona": "Puebloviejo",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 4,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "b0b6ab845c98051c8d04e9bf27ebd3268ae9a5ced82fc534e7263dfd0e7795bd"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Matemáticas",
+      "secretaria": "Magdalena",
+      "departamento": "Magdalena",
+      "municipio": "Santa Ana",
+      "zona": "Santa Ana",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 3,
+      "fecha_cierre_texto": "11/11/2026 13:07",
+      "fecha_cierre_iso": "2026-11-11 13:07:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "1f1fde34e7d628f327b7f27c537d267c6df5a46e5bee73fe040a6107b5547c3e"
+    }
+  ]
 }
