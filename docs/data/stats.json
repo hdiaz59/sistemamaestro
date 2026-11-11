@@ -1,53 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-10 23:55:52 UTC",
-  "total_activas": 16,
-  "total_nuevas": 16,
+  "ultima_actualizacion": "2026-11-11 05:22:44 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 16,
-  "departamentos": [
-    "Antioquia",
-    "Huila",
-    "Magdalena"
-  ],
-  "municipios": [
-    "Ariguani",
-    "Betulia",
-    "Chibolo",
-    "Colombia",
-    "Cáceres",
-    "El Bagre",
-    "El Banco",
-    "Guadalupe",
-    "La Plata",
-    "Medellín",
-    "Puebloviejo",
-    "Santa Ana",
-    "Sonsón",
-    "Tarazá",
-    "Zaragoza"
-  ],
-  "areas": [
-    "Ciencias sociales",
-    "Filosofía",
-    "Idioma extranjero inglés",
-    "Matemáticas",
-    "Preescolar",
-    "Primaria"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Magdalena": 6,
-    "Antioquia": 7,
-    "Huila": 3
-  },
-  "conteo_areas": {
-    "Idioma extranjero inglés": 5,
-    "Matemáticas": 4,
-    "Preescolar": 1,
-    "Primaria": 4,
-    "Ciencias sociales": 1,
-    "Filosofía": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
