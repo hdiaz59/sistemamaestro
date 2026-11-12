@@ -1,22 +1,25 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-11-11 20:02:06 UTC",
-    "total_activas": 5,
-    "total_nuevas": 5,
+    "ultima_actualizacion": "2026-11-12 01:54:30 UTC",
+    "total_activas": 9,
+    "total_nuevas": 9,
     "total_actualizadas": 0,
-    "total_historico": 5,
+    "total_historico": 9,
     "departamentos": [
       "Antioquia",
       "Casanare",
-      "Meta"
+      "Meta",
+      "Santander"
     ],
     "municipios": [
       "Aguazul",
+      "Bucaramanga",
       "Turbo",
       "Villavicencio"
     ],
     "areas": [
       "Ciencias naturales y educación ambiental",
+      "Ciencias sociales",
       "Educación física, recreación y deporte",
       "Humanidades y lengua castellana",
       "Primaria"
@@ -27,13 +30,15 @@
     "conteo_departamentos": {
       "Meta": 3,
       "Casanare": 1,
-      "Antioquia": 1
+      "Antioquia": 1,
+      "Santander": 4
     },
     "conteo_areas": {
       "Humanidades y lengua castellana": 1,
-      "Ciencias naturales y educación ambiental": 1,
+      "Ciencias naturales y educación ambiental": 2,
       "Primaria": 2,
-      "Educación física, recreación y deporte": 1
+      "Educación física, recreación y deporte": 3,
+      "Ciencias sociales": 1
     }
   },
   "vacantes": [
@@ -45,7 +50,7 @@
       "municipio": "Villavicencio",
       "zona": "Villavicencio",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 14,
+      "postulados": 67,
       "fecha_cierre_texto": "12/11/2026 14:01",
       "fecha_cierre_iso": "2026-11-12 14:01:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
@@ -59,7 +64,7 @@
       "municipio": "Villavicencio",
       "zona": "Villavicencio",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 18,
+      "postulados": 70,
       "fecha_cierre_texto": "12/11/2026 14:01",
       "fecha_cierre_iso": "2026-11-12 14:01:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
@@ -73,7 +78,7 @@
       "municipio": "Villavicencio",
       "zona": "Villavicencio",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 15,
+      "postulados": 78,
       "fecha_cierre_texto": "12/11/2026 14:01",
       "fecha_cierre_iso": "2026-11-12 14:01:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
@@ -87,7 +92,7 @@
       "municipio": "Aguazul",
       "zona": "Casanare",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 19,
+      "postulados": 75,
       "fecha_cierre_texto": "12/11/2026 14:05",
       "fecha_cierre_iso": "2026-11-12 14:05:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
@@ -101,11 +106,67 @@
       "municipio": "Turbo",
       "zona": "Turbo",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 13,
+      "postulados": 84,
       "fecha_cierre_texto": "12/11/2026 14:08",
       "fecha_cierre_iso": "2026-11-12 14:08:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
       "id_vacante": "91b51ec9150e0aeb95fc007effbc7a1f1b4bfd1dcb844dd15e597316e36b8394"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias naturales y educación ambiental",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 53,
+      "fecha_cierre_texto": "12/11/2026 16:19",
+      "fecha_cierre_iso": "2026-11-12 16:19:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "2ad5f0cf478d9dd8ef6c31192d962e43d5cb64b3ad08e06789046f8eeea71b16"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación física, recreación y deporte",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Priorizadas para jóvenes entre 18 y 28 años",
+      "postulados": 45,
+      "fecha_cierre_texto": "12/11/2026 16:20",
+      "fecha_cierre_iso": "2026-11-12 16:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "a0808380a03add10aa4a23dcb692c34225cb37fdecf864ab37669de531f7c348"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Educación física, recreación y deporte",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 48,
+      "fecha_cierre_texto": "12/11/2026 16:20",
+      "fecha_cierre_iso": "2026-11-12 16:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "151d5a0e6cfd4412cdc957069a65fb4608c31159ce2af4355aa8387d1d3118ef"
+    },
+    {
+      "cargo": "Docente de aula",
+      "area": "Ciencias sociales",
+      "secretaria": "Bucaramanga",
+      "departamento": "Santander",
+      "municipio": "Bucaramanga",
+      "zona": "Bucaramanga",
+      "tipo_priorizacion": "Vacantes Generales",
+      "postulados": 41,
+      "fecha_cierre_texto": "12/11/2026 16:20",
+      "fecha_cierre_iso": "2026-11-12 16:20:00",
+      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
+      "id_vacante": "8b63a93c207d43fec25ee6748992c62d296bd5b0c2f20816113606c89f33c8a5"
     }
   ]
 }
