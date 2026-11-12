@@ -1,42 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-12 01:54:30 UTC",
-  "total_activas": 9,
-  "total_nuevas": 9,
+  "ultima_actualizacion": "2026-11-12 09:25:56 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 9,
-  "departamentos": [
-    "Antioquia",
-    "Casanare",
-    "Meta",
-    "Santander"
-  ],
-  "municipios": [
-    "Aguazul",
-    "Bucaramanga",
-    "Turbo",
-    "Villavicencio"
-  ],
-  "areas": [
-    "Ciencias naturales y educación ambiental",
-    "Ciencias sociales",
-    "Educación física, recreación y deporte",
-    "Humanidades y lengua castellana",
-    "Primaria"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Meta": 3,
-    "Casanare": 1,
-    "Antioquia": 1,
-    "Santander": 4
-  },
-  "conteo_areas": {
-    "Humanidades y lengua castellana": 1,
-    "Ciencias naturales y educación ambiental": 2,
-    "Primaria": 2,
-    "Educación física, recreación y deporte": 3,
-    "Ciencias sociales": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
