@@ -1,6 +1,6 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-11-13 18:33:31 UTC",
+    "ultima_actualizacion": "2026-11-13 23:53:48 UTC",
     "total_activas": 1,
     "total_nuevas": 1,
     "total_actualizadas": 0,
@@ -33,7 +33,7 @@
       "municipio": "Puerto Rico",
       "zona": "Zona 4",
       "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 102,
+      "postulados": 167,
       "fecha_cierre_texto": "14/11/2026 08:19",
       "fecha_cierre_iso": "2026-11-14 08:19:00",
       "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
