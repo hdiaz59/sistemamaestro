@@ -1,13 +1,25 @@
 {
-  "ultima_actualizacion": "2026-11-13 11:12:27 UTC",
-  "total_activas": 0,
-  "total_nuevas": 0,
+  "ultima_actualizacion": "2026-11-13 18:33:31 UTC",
+  "total_activas": 1,
+  "total_nuevas": 1,
   "total_actualizadas": 0,
-  "total_historico": 0,
-  "departamentos": [],
-  "municipios": [],
-  "areas": [],
-  "cargos": [],
-  "conteo_departamentos": {},
-  "conteo_areas": {}
+  "total_historico": 1,
+  "departamentos": [
+    "Meta"
+  ],
+  "municipios": [
+    "Puerto Rico"
+  ],
+  "areas": [
+    "Primaria"
+  ],
+  "cargos": [
+    "Docente de aula"
+  ],
+  "conteo_departamentos": {
+    "Meta": 1
+  },
+  "conteo_areas": {
+    "Primaria": 1
+  }
 }
