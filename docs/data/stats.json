@@ -1,41 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-13 03:14:31 UTC",
-  "total_activas": 8,
-  "total_nuevas": 8,
+  "ultima_actualizacion": "2026-11-13 11:12:27 UTC",
+  "total_activas": 0,
+  "total_nuevas": 0,
   "total_actualizadas": 0,
-  "total_historico": 8,
-  "departamentos": [
-    "Santander",
-    "Valle del Cauca"
-  ],
-  "municipios": [
-    "Ansermanuevo",
-    "Argelia",
-    "Bolivar",
-    "Bucaramanga",
-    "El Dovio",
-    "Obando",
-    "Restrepo"
-  ],
-  "areas": [
-    "Ciencias naturales y educación ambiental",
-    "Educación física, recreación y deporte",
-    "Idioma extranjero inglés",
-    "Preescolar",
-    "Primaria"
-  ],
-  "cargos": [
-    "Docente de aula"
-  ],
-  "conteo_departamentos": {
-    "Valle del Cauca": 6,
-    "Santander": 2
-  },
-  "conteo_areas": {
-    "Educación física, recreación y deporte": 1,
-    "Primaria": 4,
-    "Idioma extranjero inglés": 1,
-    "Preescolar": 1,
-    "Ciencias naturales y educación ambiental": 1
-  }
+  "total_historico": 0,
+  "departamentos": [],
+  "municipios": [],
+  "areas": [],
+  "cargos": [],
+  "conteo_departamentos": {},
+  "conteo_areas": {}
 }
