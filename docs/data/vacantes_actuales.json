@@ -1,43 +1,16 @@
 {
   "meta": {
-    "ultima_actualizacion": "2026-11-13 23:53:48 UTC",
-    "total_activas": 1,
-    "total_nuevas": 1,
+    "ultima_actualizacion": "2026-11-14 05:28:10 UTC",
+    "total_activas": 0,
+    "total_nuevas": 0,
     "total_actualizadas": 0,
-    "total_historico": 1,
-    "departamentos": [
-      "Meta"
-    ],
-    "municipios": [
-      "Puerto Rico"
-    ],
-    "areas": [
-      "Primaria"
-    ],
-    "cargos": [
-      "Docente de aula"
-    ],
-    "conteo_departamentos": {
-      "Meta": 1
-    },
-    "conteo_areas": {
-      "Primaria": 1
-    }
+    "total_historico": 0,
+    "departamentos": [],
+    "municipios": [],
+    "areas": [],
+    "cargos": [],
+    "conteo_departamentos": {},
+    "conteo_areas": {}
   },
-  "vacantes": [
-    {
-      "cargo": "Docente de aula",
-      "area": "Primaria",
-      "secretaria": "Meta",
-      "departamento": "Meta",
-      "municipio": "Puerto Rico",
-      "zona": "Zona 4",
-      "tipo_priorizacion": "Vacantes Generales",
-      "postulados": 167,
-      "fecha_cierre_texto": "14/11/2026 08:19",
-      "fecha_cierre_iso": "2026-11-14 08:19:00",
-      "url_portal": "https://sistemamaestro.mineducacion.gov.co/SistemaMaestro/busquedaVacantes.xhtml",
-      "id_vacante": "dcd8622a6f08b9d2b1cbf9b8e071e44d68f8be31863459ddfcf60e3b67a2656a"
-    }
-  ]
+  "vacantes": []
 }
